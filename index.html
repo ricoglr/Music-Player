@@ -29,25 +29,34 @@
                     </div>
                 </div>
                 <div id="controls" class="text-center">
-                    <button id="prev" class="btn btn-outline-primary rounded-circle">
+                    <button id="prev" class="btn btn-primary rounded-circle">
                         <i class="fa-solid fa-backward-step"></i>
                     </button>
-                    <button id="play" class="btn btn-outline-primary rounded-circle btn-lg mx-3">
+                    <button id="play" class="btn btn-primary rounded-circle btn-lg mx-3">
                         <i class="fa-solid fa-play"></i>
                     </button>
-                    <button id="next" class="btn btn-outline-primary rounded-circle">
+                    <button id="next" class="btn btn-primary rounded-circle">
                         <i class="fa-solid fa-forward-step"></i>
                     </button>
                 </div>
             </div>
             <div class="card-footer">
-                <button class="btn btn-primary btn-sm">
+                <button id="deneme" class="btn btn-warning btn-sm" data-bs-toggle="collapse" data-bs-target="#music-list">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <div class="volume-container">
                     <i id="volume" class="fa-solid fa-volume-high"></i>
                     <input type="range" id="volume-bar" max="100" value="100" class="form-range">
                 </div>
+            </div>
+            <div id="music-list" class="collapse">
+                <ul class="list-group list-group-flush">
+                    <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>Shouse - Won't Froget You</span>
+                        <span class="badge bg-primary rounded-pill">3:40</span>
+                    </li> -->
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
