@@ -2,7 +2,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 70vh;
 }
 .container{
     width: 400px;
@@ -25,11 +25,14 @@ body {
 }
 #next, #play,#prev,#music-list, #deneme{
     color: white;
-    background:rgb(0, 119, 255);
-    border-color: rgb(0, 119, 255);
+    background:#0b5eb7;
+    border-color: #0b5eb7;
 }
 #next:hover, #play:hover,#prev:hover, #deneme:hover{
-    color: rgb(0, 119, 255);
+    color: #0b5eb7;
     background:white;
-    border-color:rgb(0, 119, 255);
+    border-color:#0b5eb7;
+}
+li.playing{
+    background-color: rgb(216, 216, 216);
 }
