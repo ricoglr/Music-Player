@@ -81,3 +81,7 @@ progressBar.addEventListener("input", () => {
     currentTime.textContent = calculateTime(progressBar.value);
     audio.currentTime = progressBar.value
 })
+progressBar.addEventListener("input", () => {
+    currentTime.textContent = calculateTime(progressBar.value);
+    audio.currentTime = progressBar.value
+})
