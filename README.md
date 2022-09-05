@@ -1,2 +1,2 @@
 # Music-Player
-![image](./img/ScreenShot/ss1.jpeg)
+![img](./img/ScreenShot/ss1.jpeg)
